@@ -7,6 +7,7 @@
     <title><%= content_for?(:title) ? yield(:title) : "FinanceTracker" %></title>
     <%= csrf_meta_tags %>
 
+    <%= javascript_include_tag "application" %>
     <%= stylesheet_link_tag "application", :media => "all" %>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
