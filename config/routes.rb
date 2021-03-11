@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users, :controller => { :registrations => "user/registrations" }
   resources :user_stocks, except: [:show, :edit, :update]
+  resources :users, only: [:show]
+  resources :friendships
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 
   root 'welcome#index'
