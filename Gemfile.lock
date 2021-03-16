@@ -210,7 +210,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
     stock_quote (3.0.0)
       json
       rest-client (~> 2.0.2)
@@ -272,7 +271,6 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
-  sqlite3 (~> 1.4)
   stock_quote
   turbolinks (~> 5)
   twitter-bootstrap-rails
